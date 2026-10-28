@@ -736,6 +736,12 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
       Use case resumes at step 2.
 
+* 3d. The contact does not have one of the given tags.
+
+    * 3d1. ByLine ignores that tag and removes the others.
+
+      Use case resumes at step 4.
+
 **Guarantees**
 
 * The contact's other tags and details are unchanged.

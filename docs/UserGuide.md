@@ -155,6 +155,7 @@ Format: `untag ID t/TAG [t/TAG]…​`
 * Removes the given tags from the contact with the given `ID`. See [Contact IDs](#contact-ids).
 * At least one tag must be given.
 * Tags are matched ignoring upper/lower case, so `t/Expert` removes the tag `expert`.
+* Tags the contact does not have are ignored.
 
 Examples:
 * `untag 3 t/expert` removes the tag `expert` from the contact with ID 3.
